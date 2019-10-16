@@ -1,7 +1,7 @@
 {
   "name": "coursehunters",
   "version": "1.0.0",
-  "description": "My perfect Nuxt.js project",
+  "description": "An alternative look on coursehunters design",
   "author": "Andrew",
   "private": true,
   "scripts": {
@@ -11,9 +11,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.10.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/tailwindcss": "^1.1.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
   }
 }
